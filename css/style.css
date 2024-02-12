@@ -1,0 +1,453 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: 'Lateef', serif;
+}
+/*brown image*/
+.boddy{
+    background-image: url('../images/back_prod.jpg');
+
+    height:340vh; /*الحد المناسب لاطول صفحة بالمحتوى*/
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+#goods p , .def, tbody td , .formm #lab , .form #L1 , .form #L2
+ , .form #L4 , .form #L5 , .form #L6 , .app-order #use-learn , .content #p1,
+ .content #p-contact,
+.content #p2 , .product-items p , .product-items-two p , .web-order p ,
+.app-order #click-here
+{
+    font-weight: bold;
+    
+    font-size: 22px;
+    color: black;
+}
+.about-us .title h1, .products .title h1, #defination h1 , #defination h2
+, #goods h2 , .t th , .content h1, .content h2 , .product-items h4
+, .product-items-two h4
+{
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+        color: rgb(158, 119, 18);
+}
+#header-logo{
+    font-size:x-large;
+    display: flex;/*عشان يكونوا على سطر واحد*/
+    justify-content: space-around;/*لتوليد مساحة قبل بعد وبين العناصر*/
+    align-items: center;
+    color: rgb(137, 76, 7);
+    font-weight: bolder;
+}
+
+ul{
+    list-style: none;
+}
+a , #social_media a{
+    text-decoration: none;
+    color: black;
+}
+nav ul {
+    display: flex;
+}
+
+/*incorrect*/
+header{
+    height:100vh;
+    background-image: url('../images/covver.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+#header-logo .hovver ul li a{
+    padding: 20px 20px;
+    color: rgb(137, 76, 7);
+    font-weight:700;
+}
+#header-logo .hovver ul li{
+width: 140px;
+}
+/*الوان الروابط*/
+#header-logo .hovver ul li a:hover{
+    border-bottom: 5px solid black;
+    background-color: yellowgreen;
+}
+/*لجعل القوائم الفرعية تحت بعض تحت الرئيسية*/
+#header-logo .hovver ul ul{
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+/*لاظهار القوائم الفرعية*/
+#header-logo .hovver ul li:hover>ul{
+display: block;
+}
+header .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   height: 75%;
+}
+header .content h1{
+    padding: 15px;
+    font-size: 60px;
+    color:#fff;
+   
+}
+header .content h2{
+    padding-bottom: 15px;
+    margin: 10px 10px 30px;
+    color: rgb(26, 9, 9);
+}
+/*تنسيق الازرار*/
+#app-order , #web-order , .btn-web-order, .btn-about{
+    
+    text-decoration: none;
+    border: 2px solid rgb(60, 22, 22);
+    padding: 5px;
+    color: #fff;
+    border-radius: 20px;
+    width: 80px;
+    height: 40px;
+    background-color: rgb(129, 142, 57);
+   
+}
+/*transition btns color*/
+#app-order , #web-order , .btn-about, 
+.btn-web-order{
+    transition-duration: 1s;
+}
+#app-order:hover , #web-order:hover , .btn-about:hover , 
+.btn-web-order:hover
+{
+    background-color: rgb(39, 79, 39);
+}
+
+/*قسم التعريف*/
+.about-us{
+    max-width: 900px;
+    margin: auto;
+}
+/*لتعديل شكل خط المقدمة*/
+.about-us .title h1, .products .title h1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+.products .title h1{
+    box-shadow: 0 0 5px #905f06f4;
+    border: 0.2px solid #055d1a;
+    border-radius: 20px;
+    padding: 3px;
+}
+.def{
+    text-align: center;
+    margin-top: 25px;
+    position: relative;
+}
+.about-us .defination #def-img{
+    position: absolute;
+    margin-right: 60px;
+    opacity: 0.6;
+    border-radius: 4px;
+    z-index: -1;
+}
+.btn-about{
+    margin-right: 425px;
+    margin-top: 20px;
+    color: #fff;
+}
+/*قسم المنتجات*/
+.products{
+    
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 4rem;
+    margin-top: 10px;
+    
+}
+.products .product-items, .products .product-items-two
+{
+    column-count:3;
+
+}
+#contact-us .title h1{
+    box-shadow: 0 0 5px #905f06f4;
+    border: 0.2px solid #055d1a;
+    border-radius: 20px;
+    width: 120px;
+    padding: 6px;
+    margin-right: 580px;
+    text-align: center;
+    justify-content: center;
+    color: #905f06f4;
+    font-style: italic;
+}
+#social-media a{
+font-size: 40px;
+padding-right: 270px;
+
+
+}
+/*about us page desgin*/
+#defination h1 {
+        padding-top: 15px;
+        margin:auto;
+}
+    #goods h2{
+        margin-top: 7px;
+        margin-bottom: 5px;
+    }
+    
+    #goods img{
+        margin:75px;
+        border-radius: 15px;
+        
+    
+    }
+
+    #goods p{
+        margin-top: 7px;
+        margin-right: 40px;
+    }
+    /*dessert and drink page desgin*/
+    .t{
+        text-align: center;
+        border-collapse: collapse;
+        margin-right: 150px;
+        margin-top: 5px;
+        width:70%;
+        
+    }
+    .t th{
+        
+        padding: 30px;
+        border-bottom: 3px solid rgb(85, 65, 15);
+    }
+    .food-img  , #about-page-img , #motor{
+        border-radius: 30px;
+        margin-top: 15px;
+        box-shadow: 3px 3px 1px black;
+    }
+    tbody{
+        background-color: rgb(80, 121, 80);
+        border-bottom: 3px solid rgb(85, 65, 15);
+    }
+    td{
+        border-bottom: 3px solid rgb(85, 65, 15);
+    }
+/*career page desgin*/
+
+.content h1{
+padding: 15px;
+}
+.content #p1{
+margin-right: 20px;
+}
+.content h2{
+    margin-top: 15px;
+}
+.content #p2, .app-order #click-here{
+    text-align: center;
+    margin-top: 15px;
+}
+.formm #lab , .form #L1  {
+margin-right: 50px;
+box-shadow: 5px 5px 2px rgb(158, 119, 18);
+padding: 5px;
+}
+.form #drink-label{
+    margin-right: 50px;
+box-shadow: 5px 5px 2px rgb(158, 119, 18);
+padding: 5px;
+}
+ .form #L5{
+    margin-right: 50px;
+box-shadow: 5px 5px 2px rgb(158, 119, 18);
+padding: 5px;
+ }
+ .form .l3 {
+    margin-right: 50px;
+    box-shadow: 5px 5px 2px rgb(158, 119, 18);
+    padding: 5px; 
+ }
+.formm #inpt , .form #L2 , .form #L4 , .form #L6{
+    margin-right: 50px;
+    border-radius: 5px;
+    transition-duration: 0.2s;
+}
+.formm #inpt:hover , .form #L2:hover , .form #L4:hover , .form #L6:hover{
+    background-color: rgb(39, 79, 39);
+}
+/*contact page desgin*/
+
+.content #p-contact , .content #p2, .app-order #use_learn{
+    margin-right: 40px;
+    margin-top: 30px;
+   text-align: center;
+}
+
+@keyframes imgss
+    {
+    from { background-color:rgb(158, 119, 18);}
+    to{
+        background-color: #055d1a;
+    }
+
+    }
+.contact-a{
+    animation-name: imgss;
+    animation-duration: 2s;
+    text-decoration:none;
+    color: black;
+    margin-right: 550px;
+    font-weight: bolder;
+    box-shadow: 5px 5px 5px black;
+    background-color: rgb(158, 119, 18);
+    border-radius: 5px;
+    padding: 5px;
+}
+.contact-a2 {
+    animation-name: imgss;
+    animation-duration: 2s;
+   margin-right: 210px;
+   color: black;
+   box-shadow: 5px 5px 5px black;
+    background-color: rgb(158, 119, 18);
+    border-radius: 5px;
+    padding: 10px;
+}
+/*web order page*/
+
+ .web-order p{
+    padding-top: 30px;
+    text-align: center;
+}
+.form{
+    margin-top: 30px;
+}
+.form .btn-web-order{
+    margin-right: 50px;
+}
+
+/*app order page*/
+.app-order #use-learn{
+    margin-right: 40px;
+}
+.app-order #motor{
+    margin-right:500px;
+    margin-top: 50px;
+    border-radius: 40px;
+}
+
+/*responsive edit*/
+@media (max-width: 395px)
+{ /*first page*/
+    header{
+       
+       height: 90vh;
+       width: 400px;
+     
+    }
+    #header-logo , #header-logo .hovver ul{
+        flex-direction: column;
+        
+    }
+    header .content h1{
+        padding: 0px;
+        margin:0px ;
+        font-size: 35px;
+    }
+    header .content h2{
+        font-size: 30px;
+    }
+    .about-us .title h1 {
+        margin-right: 80px;
+        margin-top: 5px;
+        
+    }
+    .about-us .defination #def-img{
+        margin-right: 10px;
+        height:130px;
+        width: 367px;
+    }
+    .def{
+        margin-right: 1px;
+        padding-top: 3px;
+       padding-right: 2px;
+        
+    }
+    .btn-about{
+        margin-right: 260px;
+    }
+    
+    .products .product-items, .products .product-items-two
+    
+    
+    {
+        margin-right: 80px;
+        margin-top: 3px;
+        column-count: 1;
+
+    }
+    .products .product-items img , .products .product-items-two img
+    {  margin-top: 3px;
+       width: 100px;
+       height: 90px;
+    }
+    .products .title h1{
+       width: 240px;
+       margin-right: 40px;
+       
+    }
+    #contact-us .title h1{
+       margin-top: 300px;
+        margin-right:170px ;
+        padding: 0px;
+        
+    }
+    #social-media a{
+        padding-right: 60px;
+        
+    }
+    /*end first page*/
+
+    /*about us page*/
+    #defination h1, #goods h2{
+        margin-top: 18px;
+    }
+    #goods p{
+        margin-right: 20px;
+    }
+    
+    /*dessert and drink page*/
+    .t{
+        margin-right: 60px;
+    }
+
+    /*contact page*/
+    .contact-a{
+        margin-right: 130px;
+    }
+    .contact-a2 {
+       margin-bottom: 30px;
+    }
+    .content #p2, .content #p-contact{
+      margin-right: 10px;
+    }
+     /*app order page*/
+    .app-order #use-learn{
+     margin-top: 30px;
+    }
+ .app-order  #motor{
+    margin-right: 60px;
+   }
+}
